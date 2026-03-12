@@ -1,13 +1,15 @@
 # Computer Vision Age Verification
+
+
 ## Project Overview
+
 Computer vision model predicting customer age from facial images using deep learning (Validation MAE: ~7.6 years).
 
 ---
 
 ## Business Problem
-A chain of supermarkets sell alcohol and other age-restricted products. Cashiers must verify that customers meet legal age requirements before completing these purchases. However, manually checking IDs for every customer can slow down checkout lines and introduce human error.
 
-The goal of this project is to develop a computer vision model capable of estimating a customer's age from a facial image. This system could assist store employees by flagging customers who may be under the legal age threshold and require ID verification.
+A chain of supermarkets sell alcohol and other age-restricted products. Cashiers must verify that customers meet legal age requirements before completing these purchases. However, manually checking IDs for every customer can slow down checkout lines and introduce human error.
 
 ---
 
@@ -24,13 +26,14 @@ Possible benefits include:
 
 ---
 
-## Dataset
+## Data
+
 The dataset consists of facial images labeled with the age of each individual.
 
 The data is organized into two primary components:
 
-- **labels.csv** — contains the age label for each image  
-- **final_files/** — directory containing facial images of customers  
+* **labels.csv** — contains the age label for each image  
+* **final_files/** — directory containing facial images of customers  
 
 The dataset was used to train and validate a deep learning model capable of learning visual patterns associated with aging.
 
@@ -40,11 +43,11 @@ The dataset was used to train and validate a deep learning model capable of lear
 
 Initial analysis of the dataset revealed several useful observations:
 
-- The dataset contains thousands of labeled facial images
-- Ages range from 1 - 100 years old
-- Shoppers between the ages of 1 and 60 made up the majority of customers.
-- The number of customers under the age of 21 were well over double the number of customers that were 21 and older
-- Images contain natural variation in lighting, orientation, and facial expressions
+* The dataset contains thousands of labeled facial images
+* Ages range from 1 - 100 years old
+* Shoppers between the ages of 1 and 60 made up the majority of customers.
+* The number of customers under the age of 21 were well over double the number of customers that were 21 and older
+* Images contain natural variation in lighting, orientation, and facial expressions
 
 These characteristics help train the model to generalize to real-world checkout environments.
 
