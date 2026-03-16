@@ -1,9 +1,9 @@
-pandas
-numpy
-matplotlib
-seaborn
-tensorflow
-keras
-scikit-learn
-Pillow
+pandas>=1.5
+numpy>=1.23
+matplotlib>=3.6
+seaborn>=0.12
+tensorflow>=2.10
+keras>=2.10
+scikit-learn>=1.2
+Pillow>=9.0
 jupyter
